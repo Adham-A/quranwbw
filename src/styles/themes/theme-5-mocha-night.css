@@ -1,0 +1,22 @@
+/* Theme 5 - Mocha Night */
+
+/* Scrollbar Colors */
+html.theme-5 ::-webkit-scrollbar-thumb { background: #dca54c; }
+
+/* Checkbox Colors */
+.theme-5 [type='checkbox'], .theme-5 [type='checkbox']:checked { background-color: transparent; border-color: #dca54c }
+.theme-5 [type='checkbox']:checked { background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 507.506 507.506' fill='%23dca54c'><g><path d='M163.865,436.934c-14.406,0.006-28.222-5.72-38.4-15.915L9.369,304.966c-12.492-12.496-12.492-32.752,0-45.248l0,0 c12.496-12.492,32.752-12.492,45.248,0l109.248,109.248L452.889,79.942c12.496-12.492,32.752-12.492,45.248,0l0,0 c12.492,12.496,12.492,32.752,0,45.248L202.265,421.019C192.087,431.214,178.271,436.94,163.865,436.934z'/></g></svg>"); }
+
+/* Font Palettes */
+.theme-5 .colored-fonts { font-palette: --palette5; }
+.theme-5 .theme-palette-normal { font-palette: --palette4; }
+.theme-5 .theme-palette-tajweed { font-palette: --palette1; }
+.theme-5 .header { font-palette: --palette5; }
+
+/* Custom Bismillah Color */
+.theme-5 .colored-bismillah { font-palette: --MochaNightBismillahColor; }
+
+/* Markdown Colors */
+.theme-5 .markdown hr { @apply border-[#dca54c]/20; }
+.theme-5 .markdown a { @apply text-[#dca54c]; }
+.theme-5 .markdown h3 { @apply text-[#dca54c]; }

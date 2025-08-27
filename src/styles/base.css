@@ -1,0 +1,7 @@
+/* Import core modules */
+@import './core/tailwind.css';
+@import './core/fonts.css';
+@import './core/layout.css';
+@import './core/font-utilities.css';
+@import './core/font-palettes.css';
+@import './components/components.css';

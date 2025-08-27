@@ -1,0 +1,19 @@
+/* Theme 6 - Midnight Blue */
+
+/* Scrollbar Colors */
+html.theme-6 ::-webkit-scrollbar-thumb { background: #c2c2c2; }
+
+/* Checkbox Colors */
+.theme-6 [type='checkbox'], .theme-6 [type='checkbox']:checked { background-color: transparent; border-color: #c2c2c2 }
+.theme-6 [type='checkbox']:checked { background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 507.506 507.506' fill='%23c2c2c2'><g><path d='M163.865,436.934c-14.406,0.006-28.222-5.72-38.4-15.915L9.369,304.966c-12.492-12.496-12.492-32.752,0-45.248l0,0 c12.496-12.492,32.752-12.492,45.248,0l109.248,109.248L452.889,79.942c12.496-12.492,32.752-12.492,45.248,0l0,0 c12.492,12.496,12.492,32.752,0,45.248L202.265,421.019C192.087,431.214,178.271,436.94,163.865,436.934z'/></g></svg>"); }
+
+/* Font Palettes */
+.theme-6 .colored-fonts { font-palette: --palette1; }
+.theme-6 .theme-palette-normal { font-palette: --palette4; }
+.theme-6 .theme-palette-tajweed { font-palette: --palette1; }
+.theme-6 .header { font-palette: --palette3; }
+
+/* Markdown Colors */
+.theme-6 .markdown hr { @apply border-[#c2c2c2]/20; }
+.theme-6 .markdown a { @apply text-[#c2c2c2]; }
+.theme-6 .markdown h3 { @apply text-[#c2c2c2]; }
